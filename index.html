@@ -13,15 +13,24 @@
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" 
     />
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" 
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
 </head>
 <body>
+    <div class="topContainer" id="myCv">
+        <button id="pdfBtn">Export to PDF</button>
+    </div>
     <div class="mainContainer">
         <div class="header">
             <div class="profileImgContainer">
                 <img src="profile.jpg" alt="">
             </div>
             <div class="profileInfosContainer">
-                <h1 class="nameSurname" >Bahtiyar Dündar</h1>
+                <h1 class="nameSurname" id="nameSurname" >Bahtiyar Dündar</h1>
                 <h4>Fronted Developer</h4>
                 <p class="profileInfoText">
                     Lorem ipsum dolor sit amet, 
@@ -166,5 +175,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
