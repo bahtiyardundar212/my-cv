@@ -23,20 +23,21 @@
 <body>
     <div class="topContainer" >
         <button id="pdfBtn" >Export to PDF</button>
+        <select id="language">
+            <option value="tr" selected>TR</option>
+            <option value="en">EN</option>
+        </select>
     </div>
     <div class="mainContainer " id="myCv">
         <div class="header">
             <div class="profileImgContainer">
-                <img src="profile.jpg" alt="">
+                <img src="profile.jpeg" alt="">
             </div>
             <div class="profileInfosContainer">
                 <h1 class="nameSurname" id="nameSurname" >Bahtiyar Dündar</h1>
-                <h4>Fronted Developer</h4>
-                <p class="profileInfoText">
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit. 
-                    Iste, sed! Iusto temporibus reiciendis 
-                    dicta laudantium maiores modi laboriosam eaque consequuntur illo ex praesentium esse corporis error illum, quia, 
+                <h4>Frontend Developer</h4>
+                <p class="profileInfoText" id="personelDescription">
+                    merhaba ben bahtiyar dündar frontend developer olarak çalışıyorum.
                 </p>
             </div>
         </div>
@@ -101,7 +102,7 @@
             </div>
             <!--right side-->
             <div class="rightContainer">
-                <h1 class="compenentTitle marginTop10">EĞİTİM</h1>
+                <h1 class="compenentTitle marginTop10" id="educationTitle">EĞİTİM</h1>
                 <div class="contentCompenent">
                     <h2 class="compenentItemTitle">DİCLE ÜNİVERSİTESİ</h2>
                     <h3 class="compenentItemSubTitle marginTop5">
@@ -111,7 +112,7 @@
                     <p class="compenentItemDescription marginTop5">description</p>
                 </div>
                 <!--DENEYİM-->
-                <h1 class="compenentTitle marginTop30">DENEYİM</h1>
+                <h1 class="compenentTitle marginTop30" id="experienceTitle">DENEYİM</h1>
                 <div class="contentCompenent">
                     <h2 class="compenentItemTitle">akinon</h2>
                     <h3 class="compenentItemSubTitle marginTop5">

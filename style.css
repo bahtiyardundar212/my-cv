@@ -34,6 +34,11 @@ a{
     width: 794px;
     display: flex;
     justify-content: flex-end;
+    gap: 20px;
+}
+#language{
+    padding: 0px 20px;
+    border-radius: 5px;
 }
 #pdfBtn{
     padding: 5px 40px;
