@@ -1,7 +1,7 @@
 const pdfBtn=document.getElementById("pdfBtn")
 const languageSelect=document.getElementById("language")
 
-const keys = ["personelDescription", "educationTitle"]
+const keys = ["personelDescription", "educationTitle", "experienceTitle"]
 
 const dictionary=[
   {
